@@ -48,9 +48,9 @@
 	</div>
 	
 	<div class="vsebina col-md-6">
-			<div class="panel-body">
-				TEKST 
-			</div>
+		<div class="panel-body">
+			TEKST 
+		</div>
 	</div>
 	
 	<br/>
