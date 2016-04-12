@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+
+body{
+	background-image: url("slike/jasa.jpg");
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+@font-face{
+    font-family: 'metro';
+    src: url("fonts/Metropolitan.ttf");
+}
+
+@font-face{
+    font-family: 'retro';
+    src: url("fonts/GistLight.otf");
+}
+
+.zgornjiMeni{
+	top:0;
+	left:0;
+	right:0;
+	height: 230px;
+	background-color: #585858;
+	border-bottom: 4px solid black;
+}
+
+
+.meniIzbira{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center;
+	width:100%;
+	height: 70px;
+	font-size: 29px;
+	font-family: retro;
+	
+}
+
+.vsebina{
+	height: 650px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.sponzorji{
+	height: 650px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.sponzorji1{
+	height: 650px;
+}
+
+.sto{
+	width:100%;
+}
+
+@media (min-width: 1306px) {
+	
+	.meniIzbira{
+		font-size: 49px;
+		height: 110px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1305px) {
+   
+	.meniIzbira{
+		height: 90px;
+		font-size:39px;
+	}
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+
