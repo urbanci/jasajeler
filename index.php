@@ -36,27 +36,28 @@
 	<div class="zgornjiMeni col-md-12">
 	
 	</div>
-	<div class="col-md-3 nopadding">
-		<div class="meniIzbira center col-md-12">alo
+	
+	<div class="col-md-3 nopadding paddingTop">
+		<div id="1" class="meniIzbira hvr-sweep-to-right center col-md-12">alo
 		</div>
-		<div class="meniIzbira center col-md-12">sperma
+		<div id="2" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">sperma
+		</div> 
+		<div id="3" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">peder
 		</div>
-		<div class="meniIzbira center col-md-12">peder
-		</div>
-		<div class="meniIzbira center col-md-12">homo
+		<div id="4" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">homo
 		</div>
 	</div>
 	
-	<div class="vsebina col-md-6">
-		<div class="panel-body">
-			TEKST 
+	<div class="paddingTop col-md-6">
+		<div class="vsebina col-md-12">
+			
 		</div>
 	</div>
 	
 	<br/>
 	
-	<div class="sponzorji col-md-3">
-		<div class="sponzorji1 col-md-12">
+	<div class="noPaddingRight paddingTop col-md-3">
+		<div class="vsebina col-md-12">
 			
 		</div>
 	</div>

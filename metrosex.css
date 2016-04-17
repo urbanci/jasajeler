@@ -21,7 +21,7 @@ body{
 	top:0;
 	left:0;
 	right:0;
-	height: 230px;
+	height: 300px;
 	background-color: #585858;
 	border-bottom: 4px solid black;
 }
@@ -31,29 +31,29 @@ body{
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center;
-	width:100%;
 	height: 70px;
 	font-size: 29px;
 	font-family: retro;
+	background-color: #E0FFDE;
 	
 }
 
+
 .vsebina{
-	height: 650px;
 	background-color: rgba(255, 255, 255, 0.6);
-}
-
-.sponzorji{
-	height: 650px;
-	background-color: rgba(255, 255, 255, 0.6);
-}
-
-.sponzorji1{
-	height: 650px;
+	height: 500px;
 }
 
 .sto{
 	width:100%;
+}
+
+.paddingGumb{
+	margin-top: 7px;
+}
+
+.noPaddingRight{
+	padding-bottom: 15px;
 }
 
 @media (min-width: 1306px) {
@@ -63,9 +63,15 @@ body{
 		height: 110px;
 	}
 	
-	.sponzorji{
-		
+	.noPaddingRight{
+		padding-right: 0 !important;
 	}
+	
+	.paddingGumb{
+		margin-top: 20px;
+	}
+	
+
 }
 
 @media (min-width: 992px) and (max-width: 1305px) {
@@ -75,19 +81,72 @@ body{
 		font-size:39px;
 	}
 	
-	.sponzorji{
-	}	
+	.noPaddingRight{
+		padding-right: 0 !important;
+	}
+	
+	.paddingGumb{
+		margin-top: 20px;
+	}
+	
 }
 
 .nopadding {
-   padding: 0 !important;
+   padding-left: 0 !important;
    margin: 0 !important;
 }
+
+.paddingTop{
+	padding-top: 30px;
+}
+
 
 * {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
+}
+
+.hvr-sweep-to-right {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098d1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 
