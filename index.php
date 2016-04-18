@@ -28,6 +28,8 @@
   	
   	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="js/meni.js"></script>
 
 </head>
 
@@ -48,9 +50,18 @@
 		</div>
 	</div>
 	
-	<div class="paddingTop col-md-6">
-		<div class="vsebina col-md-12">
-			
+	<div id="ses" class="paddingTop col-md-6">
+		<div id="vsebina1" class="vsebina col-md-12">
+			kurac1
+		</div>
+		<div id="vsebina2" class="vsebina col-md-12">
+			sperma2
+		</div>
+		<div id="vsebina3" class="vsebina col-md-12">
+			anus3
+		</div>
+		<div id="vsebina4" class="vsebina col-md-12">
+			gnus4
 		</div>
 	</div>
 	

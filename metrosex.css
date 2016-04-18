@@ -56,6 +56,10 @@ body{
 	padding-bottom: 15px;
 }
 
+.nopadding {
+   margin: 0 !important;
+}
+
 @media (min-width: 1306px) {
 	
 	.meniIzbira{
@@ -69,6 +73,10 @@ body{
 	
 	.paddingGumb{
 		margin-top: 20px;
+	}
+	
+	.nopadding{
+		padding-left: 0 !important;
 	}
 	
 
@@ -89,11 +97,10 @@ body{
 		margin-top: 20px;
 	}
 	
-}
-
-.nopadding {
-   padding-left: 0 !important;
-   margin: 0 !important;
+	.nopadding{
+		padding-left: 0 !important;
+	}
+	
 }
 
 .paddingTop{
