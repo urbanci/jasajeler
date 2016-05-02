@@ -40,13 +40,15 @@
 	</div>
 	
 	<div class="col-md-3 nopadding paddingTop">
-		<div id="1" class="meniIzbira hvr-sweep-to-right center col-md-12">alo
-		</div>
-		<div id="2" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">sperma
+
+			<div id="index" class="meniIzbira hvr-sweep-to-right center col-md-12">alo
+			</div>
+	
+		<div id="meni1" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">sperma
 		</div> 
-		<div id="3" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">peder
+		<div id="meni2" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">peder
 		</div>
-		<div id="4" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">homo
+		<div id="meni3" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">homo
 		</div>
 	</div>
 	
