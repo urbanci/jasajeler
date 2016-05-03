@@ -37,6 +37,8 @@ $(document).ready(function halo(){
 		$( "#vsebina3" ).finish().fadeOut(400);
 		$( "#vsebina4" ).finish().fadeOut(400);
 		$( "#vsebina1" ).finish().finish().delay(500).fadeIn(700);
+		$("h1").fadeOut(400);
+		$("h1").finish().delay(200).fadeIn(700).text("INDEX");
 	});
 	
 //	CE STISNES meni1
@@ -45,6 +47,8 @@ $(document).ready(function halo(){
 		$( "#vsebina3" ).finish().fadeOut(400);
 		$( "#vsebina4" ).finish().fadeOut(400);
 		$( "#vsebina2" ).finish().delay(500).fadeIn(700);
+		$("h1").fadeOut(400);
+		$("h1").finish().delay(200).fadeIn(700).text("MENI1");
 	});
 	
 //	CE STISNES meni2

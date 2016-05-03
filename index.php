@@ -35,7 +35,9 @@
 
 <body>
 <div class="ozadje">
-	<div id="zgornjiMeni" class="zgornjiMeni col-md-12"></div>
+	<div id="zgornjiMeni" class="zgornjiMeni col-md-12">
+		<h1>KOLEGA</h1>
+	</div>
 	
 	<div class="col-md-3 nopadding paddingTop">
 
