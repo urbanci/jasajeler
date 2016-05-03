@@ -35,15 +35,12 @@
 
 <body>
 <div class="ozadje">
-	<div class="zgornjiMeni col-md-12">
-	
-	</div>
+	<div id="zgornjiMeni" class="zgornjiMeni col-md-12"></div>
 	
 	<div class="col-md-3 nopadding paddingTop">
 
-			<div id="index" class="meniIzbira hvr-sweep-to-right center col-md-12">alo
-			</div>
-	
+		<div id="index" class="meniIzbira hvr-sweep-to-right center col-md-12">alo
+		</div>
 		<div id="meni1" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">sperma
 		</div> 
 		<div id="meni2" class="paddingGumb meniIzbira hvr-sweep-to-right center col-md-12">peder
