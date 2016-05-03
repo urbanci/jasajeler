@@ -37,8 +37,15 @@ $(document).ready(function halo(){
 		$( "#vsebina3" ).finish().fadeOut(400);
 		$( "#vsebina4" ).finish().fadeOut(400);
 		$( "#vsebina1" ).finish().finish().delay(500).fadeIn(700);
-		$("h1").fadeOut(400);
-		$("h1").finish().delay(200).fadeIn(700).text("INDEX");
+		if (!$("H1:contains('INDEX')").length) {
+			$("h1").finish().fadeOut(400, function(){
+				$("h1").fadeIn(700).text("INDEX");
+			});
+			
+			$('#zgornjiMeni').finish().fadeTo('slow', 0.3, function(){
+			    $(this).css('background-image', 'url("slike/jasa.jpg")');
+			}).fadeTo('slow', 1);
+		}
 	});
 	
 //	CE STISNES meni1
@@ -47,8 +54,15 @@ $(document).ready(function halo(){
 		$( "#vsebina3" ).finish().fadeOut(400);
 		$( "#vsebina4" ).finish().fadeOut(400);
 		$( "#vsebina2" ).finish().delay(500).fadeIn(700);
-		$("h1").fadeOut(400);
-		$("h1").finish().delay(200).fadeIn(700).text("MENI1");
+		if (!$("H1:contains('MENI1')").length) {
+			$("h1").finish().fadeOut(400, function(){
+				$("h1").fadeIn(700).text("MENI1");
+			});
+			
+			$('#zgornjiMeni').finish().fadeTo('slow', 0.3, function(){
+			    $(this).css('background-image', 'url("slike/jasa1.jpg")');
+			}).fadeTo(1000, 1);
+		}
 	});
 	
 //	CE STISNES meni2
@@ -57,6 +71,11 @@ $(document).ready(function halo(){
 		$( "#vsebina1" ).finish().fadeOut(400);
 		$( "#vsebina4" ).finish().fadeOut(400);
 		$( "#vsebina3" ).finish().delay(500).fadeIn(700);
+		if (!$("H1:contains('MENI2')").length) {	
+			$("h1").finish().fadeOut(400, function(){
+				$("h1").fadeIn(700).text("MENI2");
+			});
+		}
 	});
 	
 //	CE STISNES meni3
@@ -65,6 +84,11 @@ $(document).ready(function halo(){
 		$( "#vsebina1" ).finish().fadeOut(400);
 		$( "#vsebina3" ).finish().fadeOut(400);
 		$( "#vsebina4" ).finish().delay(500).fadeIn(700);
+		if (!$("H1:contains('MENI3')").length) {
+			$("h1").finish().fadeOut(400, function(){
+				$("h1").fadeIn(700).text("MENI3");
+			});			
+		}
 	});
 	
 //	SPREMINJANJE LINKOV -------------------------------------------------------------------------------------------------

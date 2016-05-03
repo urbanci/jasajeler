@@ -7,6 +7,12 @@ body{
     background-position: center; 
 }
 
+h1{
+	font-family: retro !important;
+	font-weight: bold !important;
+	font-size: 70px !important;
+}
+
 @font-face{
     font-family: 'metro';
     src: url("fonts/Metropolitan.ttf");
