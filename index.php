@@ -34,9 +34,8 @@
 </head>
 
 <body>
-<div class="ozadje">
 	<div id="zgornjiMeni" class="zgornjiMeni col-md-12">
-		<h1>KOLEGA</h1>
+		<div class="naslovnica col-md-12"><h1>KOLEGA</h1></div>
 	</div>
 	
 	<div class="col-md-3 nopadding paddingTop">
@@ -51,12 +50,14 @@
 		</div>
 	</div>
 	
-	<div id="ses" class="paddingTop col-md-6">
+	<div id="ses" class="paddingTop col-md-7">
 		<div id="vsebina1" class="vsebina col-md-12">
 			kurac1
 		</div>
 		<div id="vsebina2" class="vsebina col-md-12">
-			sperma2
+			<div class="col-md-12">
+				sperma2
+			</div>
 		</div>
 		<div id="vsebina3" class="vsebina col-md-12">
 			anus3
@@ -68,11 +69,10 @@
 	
 	<br/>
 	
-	<div class="noPaddingRight paddingTop col-md-3">
+	<div class="noPaddingRight col-md-2">
 		<div class="vsebina col-md-12">
 			
 		</div>
 	</div>
-</div>
 </body>
 </html>

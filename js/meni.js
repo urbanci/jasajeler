@@ -61,7 +61,7 @@ $(document).ready(function halo(){
 			
 			$('#zgornjiMeni').finish().fadeTo('slow', 0.3, function(){
 			    $(this).css('background-image', 'url("slike/jasa1.jpg")');
-			}).fadeTo(1000, 1);
+			}).fadeTo(2000, 1);
 		}
 	});
 	
