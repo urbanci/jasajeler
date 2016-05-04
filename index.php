@@ -3,6 +3,11 @@
 <head>
 <title>Jasa Jeler</title>
 
+<meta property="og:title" content="Jasa Jeler"/>
+<meta property="og:url" content="http://gt22.si/jasajeler/"/>
+<meta property="og:image" content="http://gt22.si/jasajeler/slike/veriga.jpg"/>
+<meta property="og:description" content="Official Jasa Jeler WebPage">
+
 <link rel="stylesheet" type="text/css" href="metrosex.css">
 
 <!-- Latest compiled and minified CSS -->
