@@ -56,15 +56,23 @@ h1{
 	cursor: pointer;
 }
 
+.vsebine{
+	padding-top: 15px;
+	height: 500px;
+}
 
 .vsebina{
 	background-color: rgba(255, 255, 255, 0.6);
 	height: 500px;
-	back
+	padding-top:15px;
 }
 
 .sto{
 	width:100%;
+}
+
+#sponzorji{
+	position: relative !important;
 }
 
 .paddingGumb{
@@ -73,7 +81,7 @@ h1{
 
 .noPaddingRight{
 	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-top: 30px;
 }
 
 .nopadding {
@@ -97,7 +105,6 @@ h1{
 	
 	.noPaddingRight{
 		padding-right: 0 !important;
-		padding-top: 30px;
 	}
 	
 	.paddingGumb{
@@ -124,7 +131,6 @@ h1{
 	
 	.noPaddingRight{
 		padding-right: 0 !important;
-		padding-top: 30px;
 	}
 	
 	.paddingGumb{

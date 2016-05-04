@@ -36,7 +36,7 @@ $(document).ready(function halo(){
 		$( "#vsebina2" ).finish().fadeOut(400);
 		$( "#vsebina3" ).finish().fadeOut(400);
 		$( "#vsebina4" ).finish().fadeOut(400);
-		$( "#vsebina1" ).finish().finish().delay(500).fadeIn(700);
+		$( "#vsebina1" ).finish().delay(500).fadeIn(700);
 		if (!$("H1:contains('INDEX')").length) {
 			$("h1").finish().fadeOut(400, function(){
 				$("h1").fadeIn(700).text("INDEX");

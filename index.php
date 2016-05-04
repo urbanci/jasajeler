@@ -50,14 +50,12 @@
 		</div>
 	</div>
 	
-	<div id="ses" class="paddingTop col-md-7">
+	<div class="paddingTop vsebine col-md-7">
 		<div id="vsebina1" class="vsebina col-md-12">
 			kurac1
 		</div>
 		<div id="vsebina2" class="vsebina col-md-12">
-			<div class="col-md-12">
-				sperma2
-			</div>
+			sperma2
 		</div>
 		<div id="vsebina3" class="vsebina col-md-12">
 			anus3
@@ -69,7 +67,7 @@
 	
 	<br/>
 	
-	<div class="noPaddingRight col-md-2">
+	<div id="sponzorji" class="noPaddingRight col-md-2">
 		<div class="vsebina col-md-12">
 			
 		</div>
