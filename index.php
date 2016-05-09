@@ -7,6 +7,7 @@
 <meta property="og:url" content="http://gt22.si/jasajeler/"/>
 <meta property="og:image" content="http://gt22.si/jasajeler/slike/veriga.jpg"/>
 <meta property="og:description" content="Official Jasa Jeler WebPage">
+
 <link rel="shortcut icon" href="slike/veriga.jpg">
 
 <link rel="stylesheet" type="text/css" href="metrosex.css">
